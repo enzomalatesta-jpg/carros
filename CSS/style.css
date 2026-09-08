@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header h1 {
+  color: rgb(34, 219, 74);
+  font-size: 36px;
+  text-align: center;
+  background-color: rgb(158, 41, 64);
+}
+header p{
+    text-align: center;
+     background-color: rgb(158, 41, 64);
+      color: rgb(34, 219, 74);
+}
+#gol2004 {
+    background-color: rgba(179, 211, 65, 0.566);
+    margin: 20px;
+    display: flex;
+}
+h2 {
+    text-align: center;
+    font-size: 36px;
+     color: rgb(38, 210, 240);
+      background-color: rgba(179, 211, 65, 0.566);
+}
+#gol img {
+    width: 300px;
+    height: 300px;
+}
+h3 {
+    font-size: 25px;
+    color: rgb(38, 210, 240)
+}
