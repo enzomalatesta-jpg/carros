@@ -1,35 +1,76 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 header h1 {
-  color: rgb(34, 219, 74);
-  font-size: 36px;
-  text-align: center;
-  background-color: rgb(158, 41, 64);
-}
-header p{
+    color: rgb(34, 219, 74);
+    font-size: 36px;
     text-align: center;
-     background-color: rgb(158, 41, 64);
-      color: rgb(34, 219, 74);
+    background-color: rgb(158, 41, 64);
+}
+header p {
+    text-align: center;
+    background-color: rgb(158, 41, 64);
+    color: rgb(34, 219, 74);
 }
 #gol2004 {
     background-color: rgba(179, 211, 65, 0.566);
     margin: 20px;
-    display: flex;
 }
 h2 {
     text-align: center;
     font-size: 36px;
-     color: rgb(38, 210, 240);
-      background-color: rgba(179, 211, 65, 0.566);
+    color: rgb(38, 210, 240);
+    background-color: rgba(179, 211, 65, 0.566);
 }
 #gol img {
     width: 300px;
     height: 300px;
 }
+
 h3 {
     font-size: 25px;
-    color: rgb(38, 210, 240)
+    color: rgb(38, 210, 240);
+}
+
+.dados-carro {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.img-carro img {
+    border-radius: 20px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 200px;
+    align-items: flex-end
+}
+
+.contato p {
+    background-color: green;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+.contato small {
+    color: rgb(0, 0, 0);
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
 }
